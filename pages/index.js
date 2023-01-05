@@ -7,7 +7,7 @@ import styles from '../styles/Home.module.css'
 const inter = Inter({ subsets: ['latin'] })
 
 
-const audio = new Audio("audios.mp3")
+const audio = new Audio("audio.mp3")
 
 //const audio = new Audio("https://firebasestorage.googleapis.com/v0/b/chantantoine-99e5c.appspot.com/o/Camelia-Jordana-Non-Non-Non.mp3?alt=media&amp;token=2b1cdfde-39b1-4b4e-bd04-4ea68a3fbff1")
 
