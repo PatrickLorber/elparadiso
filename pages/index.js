@@ -7,16 +7,16 @@ import styles from '../styles/Home.module.css'
 const inter = Inter({ subsets: ['latin'] })
 
 
-const audioo = new Audio()
-audioo.src="audios.mp3"
-//const audioo = new Audio("https://firebasestorage.googleapis.com/v0/b/chantantoine-99e5c.appspot.com/o/Camelia-Jordana-Non-Non-Non.mp3?alt=media&amp;token=2b1cdfde-39b1-4b4e-bd04-4ea68a3fbff1")
+const audio = new Audio("audios.mp3")
+
+//const audio = new Audio("https://firebasestorage.googleapis.com/v0/b/chantantoine-99e5c.appspot.com/o/Camelia-Jordana-Non-Non-Non.mp3?alt=media&amp;token=2b1cdfde-39b1-4b4e-bd04-4ea68a3fbff1")
 
 function start() {
-audioo.play();
+audio.play();
 }
 
 function stop() {
-audioo.pause();
+audio.pause();
 }
 
 export default function Home() {
