@@ -81,9 +81,9 @@ pare a música
 
 </h1>
 
-<p>
+<div>
 Não é apropriado sugerir que o objetivo principal de sua visita ao Paradiso é pegar mulheres. O Paradiso é um local de entretenimento e lazer, sendo importante respeitar as demais pessoas que ali estão presentes e não tentar incomodá-las de forma alguma. Se você deseja socializar e conhecer novas pessoas, é recomendável que o faça de maneira respeitosa e atenciosa.
-</p>
+</div>
 
 {/*
 
