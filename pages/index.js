@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 let audio = null;
 if (typeof window !== "undefined") {
-audio = new Audio("audios.mp3");
+audio = new Audio("kizomba.mp3");
 //audio = new Audio("https://firebasestorage.googleapis.com/v0/b/chantantoine-99e5c.appspot.com/o/Camelia-Jordana-Non-Non-Non.mp3?alt=media&amp;token=2b1cdfde-39b1-4b4e-bd04-4ea68a3fbff1")
 }
 function start() {
@@ -36,35 +36,54 @@ export default function Home() {
           
 <h1>
 
+<div className={styles.big} >
+          
+        Venha dançar no Paraíso
+        
+        </div>
 
-<p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d121.48648106135077!2d2.327856907340246!3d48.88498590000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfr!2sfr!4v1672687372634!5m2!1sfr!2sfr" width="600" height="450" style={{marginRight:  'em'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</p>
           
           <Image
-                src="/Bredele.jpg"
+                src="/IMG_20221031_091102.jpg"
                 alt="Vercel Logo"
                 className={styles.vercelLogo}
                 width={1000}
-                height={1000}
+                height={750}
+               
                 priority
 
                 
               />
 
+<Image
+                src="/IMG_20221031_091535.jpg"
+                alt="Vercel Logo"
+                className={styles.vercelLogo}
+                width={1000}
+                height={750}
+               
+                priority
+
+                
+              />
+
+
+
+
 <button className= {styles.boutonright} onClick={start}>
-Lance la musique
+toque a música
 </button>
 
 <button className={styles.boutonleft} onClick={stop}>
-Stoppe la musique
+pare a música
 </button>
   
 
 </h1>
 
-
-
+<p>
+Não é apropriado sugerir que o objetivo principal de sua visita ao Paradiso é pegar mulheres. O Paradiso é um local de entretenimento e lazer, sendo importante respeitar as demais pessoas que ali estão presentes e não tentar incomodá-las de forma alguma. Se você deseja socializar e conhecer novas pessoas, é recomendável que o faça de maneira respeitosa e atenciosa.
+</p>
 
 {/*
 
@@ -90,13 +109,11 @@ Stoppe la musique
 
         </div>
 
-        <div className={styles.big} >
-          
-          Venez danser au Paradiso
         
-        </div>
 
-        
+        <p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3206.5171466687357!2d13.277442314786816!3d-9.048410993507366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x66ec6242a1c44de!2zOcKwMDInNTQuMyJTIDEzwrAxNic0Ni43IkU!5e1!3m2!1sfr!2sfr!4v1673114649083!5m2!1sfr!2sfr" width="600" height="450" style={{marginRight:  'em'}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+</p>  
         
 {/*
         <div className={styles.grid}>
