@@ -4,6 +4,7 @@ import { Inter, Noto_Sans_Mongolian } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 
 const inter = Inter({ subsets: ["latin"] });
+import ContactUs from "./components/ContactUs";
 
 let audio = null;
 if (typeof window !== "undefined") {
@@ -66,6 +67,7 @@ export default function Home() {
           socializar e conhecer novas pessoas, é recomendável que o faça de
           maneira respeitosa e atenciosa.
         </p>
+
         <br></br>
         {/*
 
@@ -169,8 +171,9 @@ export default function Home() {
         </div>
 
 */}
+        <br></br>
+        <ContactUs />
       </main>
     </>
   );
 }
-
