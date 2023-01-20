@@ -9,10 +9,10 @@ export default function ContactUs() {
 
     emailjs
       .sendForm(
-        process.env.REACT_APP_Service_ID,
-        process.env.REACT_APP_Email_Template,
+        process.env.NEXT_PUBLIC_Service_ID,
+        process.env.NEXT_PUBLIC_Email_Template,
         form.current,
-        process.env.REACT_APP_Public_Key
+        process.env.NEXT_PUBLIC_Public_Key
       )
       .then(
         (result) => {
